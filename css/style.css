@@ -349,6 +349,20 @@
 
 
 /*表格*/
+.table {
+        background: #fff;
+        overflow: hidden;
+        color: #4a4a4a;
+    }
+.table tr:nth-of-type(even) {
+        background: #F5F6F7;
+    }
+    .table th,
+    .table td {
+        margin: 15px 5px;
+    }
+
+
 
 
 /*RWD表格*/
