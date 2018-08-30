@@ -39,7 +39,15 @@
 	box-shadow: 1px 2px 5px 0px #dadada;
 
 }
-
+.sectionMain{
+    overflow: hidden;
+}
+#mySidenav,#mySidenavRight{
+    padding-bottom: 99999px; margin-bottom: -99999px;
+}
+#mySidenav ul.tab-side{
+    padding-bottom: calc( 100vh - 520px ); 
+}
 
 /*[設定]元件----------*/
 
@@ -305,7 +313,10 @@
     	line-height: 24px;
     	vertical-align: middle;
     }
-
+    #mySidenav,#mySidenavRight{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
     .sidenav {
         padding-top: 15px;
     }
